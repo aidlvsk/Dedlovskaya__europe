@@ -1,0 +1,83 @@
+.main__info {
+  margin-top: 140px;
+}
+
+.info__container {
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.info__image {
+  height: 455px;
+}
+
+.info__popup {
+  width: 656px;
+  height: 315px;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  padding: 50px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 30px rgba(41, 54, 66, 0.1);
+}
+
+.info__title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  margin: 0;
+}
+
+.info__subtitle {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #141517;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.info__form {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.info-form__item {
+  width: 269px;
+  height: 50px;
+  margin-right: 19px;
+  outline: none;
+  border: 1px solid rgba(44, 46, 63, 0.3);
+}
+
+.info-form__mail {
+  margin-right: 0;
+}
+
+.info-form__inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-form__button {
+  height: 50px;
+  padding: 18px 40px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #FE7865;
+  outline: none;
+  border: none;
+  margin: 25px;
+}

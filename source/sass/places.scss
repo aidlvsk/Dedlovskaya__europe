@@ -1,0 +1,201 @@
+.places {
+  margin-top: 200px;
+}
+
+.places__container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.places__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 80px;
+  color: #2C2E3F;
+  width: 358px;
+  position: relative;
+}
+
+.places__title:after {
+  content: '';
+  width: 228px;
+  height: 4px;
+  background-color: #FE7865;
+  position: absolute;
+  left: 0;
+  top: 180px;
+}
+
+.places__subtitle {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(44, 46, 63, 0.7);
+  margin-top: 64px;
+  width: 343px;
+}
+
+.places__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.places__item {
+  display: block;
+  width: 350px;
+  height: 430px;
+  margin-right: 60px;
+  margin-bottom: 100px;
+}
+
+.places__item:nth-child(3) {
+  margin-right: 0;
+}
+
+.place__link {
+  display: block;
+  width: 350px;
+  height: 430px;
+  position: relative;
+}
+
+.places__item--greece {
+  background-image: url("../img/greece.jpg");
+}
+
+.places__item--albania {
+  background-image: url("../img/albania.jpg");
+}
+
+.places__item--makedonia {
+  background-image: url("../img/makedonia.jpg");
+}
+.places__item--montenegro {
+  background-image: url("../img/montanegro.jpg");
+}
+
+.places__item--chroatia {
+  background-image: url("../img/chroatia.jpg");
+}
+
+.place__name {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #2C2E3F;
+  background-color: #FFFFFF;
+  width: 215px;
+  height: 61px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 370px;
+  right: calc(50% - 107px);
+}
+
+@media(max-width: 1170px) {
+  .places__item:nth-child(3) {
+    margin-right: 60px;
+  }
+}
+
+@media(max-width: 1024px) {
+  .places {
+    margin-top: 80px;
+  }
+  .places__container {
+    margin: 0 76px;
+  }
+
+  .places__title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .places__title:after {
+    display: none;
+  }
+
+  .places__subtitle {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+  }
+
+  .places__item {
+    margin-right: 40px;
+    margin-bottom: 40px;
+    width: 288px;
+  }
+
+  .place__link {
+    width: 288px;
+  }
+
+  .places__item:nth-child(3) {
+    margin-right: 40px;
+  }
+
+  .places__item:nth-child(even) {
+    margin-right: 0;
+  }
+}
+
+@media(max-width: 767px) {
+  .places {
+    margin-top: 278px;
+  }
+
+  .places__container {
+    margin: 0 16px;
+  }
+
+  .places__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    width: auto;
+  }
+
+  .places__subtitle {
+    font-size: 16px;
+    line-height: 28px;
+    width: auto;
+  }
+
+  .places__list {
+    flex-direction: column;
+  }
+
+  .places__item {
+    margin-right: 0;
+    width: 288px;
+  }
+
+  .places__item:nth-child(3) {
+    margin-right: 0;
+  }
+
+  .place__link {
+    width: 288px;
+  }
+}
