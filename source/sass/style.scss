@@ -8,6 +8,10 @@
 @import "./info.scss";
 @import "./footer.scss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 .body {
   font-family: Montserrat, Arial;
   margin: 0;

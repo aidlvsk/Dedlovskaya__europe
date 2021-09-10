@@ -103,3 +103,47 @@
     top: 50%;
   }
 }
+
+@media(max-width: 768px) {
+  .main__info {
+    margin-top: 50px;
+  }
+
+  .info__image {
+    display: none;
+  }
+
+  .info__popup {
+    position: static;
+    transform: none;
+    background-color: #FBF8F8;
+    border: none;
+    box-shadow: none;
+    padding: 50px 16px;
+    width: 100%;
+    min-height: 441px;
+    max-width: inherit;
+  }
+
+  .info__form {
+    margin-top: 0;
+  }
+
+  .info-form__inputs {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .info-form__item {
+    margin-right: 0;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .info-form__button {
+    width: 100%;
+    border: 1px solid rgba(44,46,63,.3);
+    margin: 20px 0 50px 0;
+  }
+}

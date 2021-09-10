@@ -34,6 +34,10 @@
   padding-bottom: 15px;
 }
 
+.tubs__link--active {
+  color: #FE7865;
+}
+
 .tubs__item {
   margin-right: 99px;
 }
@@ -448,6 +452,7 @@
     max-width: 288px;
     padding: 30px 21px;
     padding-bottom: 0;
+    min-width: 288px;
   }
 
   .prices__item--second {
@@ -512,6 +517,27 @@
     margin-top: 24px;
   }
 
+  .content__reviews {
+    width: 268px;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .reviews__user {
+    flex-direction: column;
+  }
+
+  .reviews__title:after {
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .reviews__user-name {
+    margin: 0;
+    margin-top: 10px;
+  }
+
   .content__title {
     font-weight: 600;
     font-size: 24px;
@@ -528,12 +554,38 @@
 
   .prices__subcontainer {
     flex-direction: column;
+    padding: 0;
+    align-items: center;
   }
-}
 
-@media(max-width: 768px) {
-  .content__reviews {
-    width: 268px;
+  .tours__prices {
+    margin-top: 110px;
+  }
+
+  .prices__item {
+    margin-right: 0;
+  }
+
+  .prices__item--second {
+    margin-top: 30px;
+  }
+
+  .prices__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .price__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .price__subtitle {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
   }
 }
 
