@@ -85,4 +85,60 @@
   color: #FE7865;
 }
 
+@media(max-width: 1024px) {
+  .footer {
+    margin-top: 80px;
+    margin-bottom: 54px;
+  }
+
+  .footer__container {
+    flex-wrap: wrap;
+    padding: 0 21px;
+    position: relative;
+    justify-content: center;
+  }
+
+  .footer__directions {
+    grid-column-gap: 30px;
+  }
+
+  .footer__column {
+    margin-right: 50px;
+  }
+
+  .footer__column--center {
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 50px;
+    border-right: none;
+  }
+
+  //.footer__column--center:after {
+  //  content: '';
+  //  display: block;
+  //  width: 726px;
+  //  background-color: #D7D9DF;
+  //  height: 1px;
+  //  position: absolute;
+  //  right: -21px;
+  //  bottom: -30px;
+  //}
+
+  .footer__column--end {
+    margin-top: 60px;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .footer__column--end:before {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #D7D9DF;
+    height: 1px;
+    position: absolute;
+    top: -30px;
+  }
+}
+
 

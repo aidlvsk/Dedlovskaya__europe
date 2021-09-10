@@ -314,7 +314,7 @@
   }
 
   .tours__tubs {
-    width: 100%;
+    width: auto;
     padding: 0 21px;
   }
 
@@ -326,6 +326,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 21px;
   }
 
   .content__title {
@@ -343,6 +344,7 @@
     margin: 20px 21px 20px 21px;
     width: 100%;
     text-align: center;
+    font-weight: 15px;
   }
 
   .content__button {
@@ -371,9 +373,10 @@
   }
 
   .content__reviews {
+    left: 50%;
+    transform: translate(-50%, -50%);
     top: auto;
-    bottom: -32px;
-    right: 193px;
+    bottom: -210px;
   }
 
   .tours__prices {
@@ -438,11 +441,17 @@
   .prices__subcontainer {
     margin-top: 40px;
     padding: 0 50px;
+    justify-content: center;
   }
 
   .prices__item {
-    min-width: 288px;
+    max-width: 288px;
     padding: 30px 21px;
+    padding-bottom: 0;
+  }
+
+  .prices__item--second {
+    margin-right: 0;
   }
 
   .prices__title {
@@ -489,7 +498,42 @@
     font-weight: 500;
     font-size: 10px;
     line-height: 12px;
+    margin-left: -22px;
+    height: 50px;
+  }
+}
+
+@media(max-width: 768px)  {
+  .main__tours {
+    margin-top: 40px;
   }
 
+  .tours__content {
+    margin-top: 24px;
+  }
+
+  .content__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .content__button {
+    width: 100%;
+  }
+
+  .content__image {
+    margin-top: 50px;
+  }
+
+  .prices__subcontainer {
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 768px) {
+  .content__reviews {
+    width: 268px;
+  }
 }
 
